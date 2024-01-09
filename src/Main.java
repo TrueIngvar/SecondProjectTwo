@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        int fsum = 100;
-        int addSum = 1100;
-        int toPlusToS = 100;
-        int eq = addSum/toPlusToS;
+        int firstSum = 100;
+        int addSum = 1000;
+        int divideAddSum = 100;
+        int addToAllSum = addSum / divideAddSum;
         if (addSum >= 1000) {
-            System.out.println(fsum + addSum + eq);
+            System.out.println(firstSum + addSum + addToAllSum);
         } else {
-            System.out.println(fsum + addSum);
+            System.out.println(firstSum + addSum);
         }
     }
 }
